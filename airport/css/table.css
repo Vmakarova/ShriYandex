@@ -1,0 +1,58 @@
+tr{
+	background-color: #D2691E;
+	font: cursive;
+}
+
+tbody > tr:nth-child(odd){
+	background-color: #8B4513;
+}
+
+tbody tr:hover{
+	background-color: #F4A460;
+}
+
+table {
+	margin-top: 0px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-collapse: collapse;
+}
+
+table, td, tr, th, thead, tbody  {
+	border: none;
+	text-align: left;
+}
+
+tr, td, th  {
+	font-size: 16px;
+	color: #fff;
+	padding: 5px;
+}
+
+.fixed {
+	position: relative;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .company_name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .aircraft_type {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .comment{
+        display: none;
+    }
+}
+
+.invisible{
+	display: none;
+}
